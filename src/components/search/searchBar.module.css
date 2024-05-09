@@ -1,0 +1,33 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    margin: 320px auto;
+  }
+  
+
+
+.searchbar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    padding-left: 20px;
+    color: #000000;
+    font-size: 24px;
+}  
+
+.searchbar input ::placeholder{
+    color:#000000;
+}   
+
+.searchbar img {
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    height: 38px;
+    width: 38px;
+}
