@@ -3,6 +3,8 @@ import styles from './mainTittle.module.css';
 import Type from "../playersTyping/Type";
 import SearchBar from "../search/SearchBar";
 
+
+
 class MainTittle extends Component {
     render() {
         return (
@@ -10,6 +12,9 @@ class MainTittle extends Component {
                 <h1>Find any ♟️<br />chess player</h1>
                 <Type />
                 <SearchBar />
+
+
+
             </div>
         );
     }

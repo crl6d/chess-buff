@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Header from '../components/header/Header';
-import MainTittle from "../components/MainTittle/MainTittle";
+import MainTittle from "../components/mainTittle/MainTittle";
 import '../App.css'
+import PlayerInfo from "../components/playerInfo/PlayerInfo";
 
 class Start extends Component {
     render() {
@@ -11,6 +12,7 @@ class Start extends Component {
 
                 <div className="holder">
                     <MainTittle/>
+                    <PlayerInfo />
 
                 </div>
             </div>
